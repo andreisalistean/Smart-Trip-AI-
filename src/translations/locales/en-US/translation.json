@@ -1,0 +1,258 @@
+{
+    "welcome": "Welcome",
+    "loginTitle": "Log in",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "logInButton": "LOG IN",
+    "noAccountText": "Do not have an account?",
+    "registerButton": "Register",
+    "errors": {
+        "default": "An unknown error occurred",
+        "1": "Invalid email or password",
+        "2": "Account not found",
+        "3": "Network error",
+        "4": "Server error"
+    },
+    "budgetPlanningScreen": {
+        "title": {
+            "totalBudget": "Total Budget",
+            "availableFunds": "Available Funds",
+            "moneySpent": "Money Spent"
+        },
+        "placeholders": {
+            "enterAmount": "Enter amount for given category"
+        },
+        "buttons": {
+            "saveBudget": "Save Budget"
+        },
+        "alerts": {
+            "exceeded": "Money to spend exceeded",
+            "saveSuccess": "Budget saved successfully!",
+            "saveError": "Error saving budget."
+        }
+    },
+    "categories": {
+        "transport": "Transport",
+        "accommodation": "Accommodation",
+        "activities": "Activities",
+        "foodAndDrinks": "Food and Drinks",
+        "other": "Other"
+    },
+    "registrationScreen": {
+        "titles": {
+            "welcome": "Welcome",
+            "register": "Register"
+        },
+        "labels": {
+            "name": "Name",
+            "email": "Email",
+            "password": "Password",
+            "confirmPassword": "Confirm Password",
+            "termsAndConditions": "I agree to the Terms and Conditions"
+        },
+        "placeholders": {
+            "name": "Name",
+            "email": "Email",
+            "password": "Password",
+            "confirmPassword": "Confirm Password"
+        },
+        "messages": {
+            "passwordError": "Password needs to be minimum 6 characters long.",
+            "passwordUppercase": "Password must contain at least one uppercase letter.",
+            "passwordLowercase": "Password must contain at least one lowercase letter.",
+            "passwordSpecialCharacter": "Password must contain at least one special character.",
+            "confirmPasswordError": "Passwords do not match.",
+            "emailError": "Please enter a valid email address.",
+            "fillFields": "Please fill all the fields",
+            "validEmail": "Please enter a valid email address",
+            "validPassword": "Please enter a password that contains upper, lower, and special characters",
+            "acceptTerms": "You need to accept terms and conditions in order to continue",
+            "passwordMismatch": "Passwords do not match",
+            "registrationError": "Something went wrong"
+        },
+        "buttons": {
+            "register": "REGISTER",
+            "goBack": "Go back"
+        },
+        "alerts": {
+            "error": "Error",
+            "oops": "Oops.."
+        },
+        "misc": {
+            "changedMind": "Changed your mind?"
+        }
+    },
+    "chatBotScreen": {
+        "messages": {
+            "welcome": "Welcome! How can I assist you today?"
+        },
+        "titles": {
+            "chatWithAI": "Chat with Baiazid"
+        },
+        "placeholders": {
+            "typeMessage": "Type your message..."
+        },
+        "buttons": {
+            "send": "Send"
+        }
+    },
+    "datePicker": {
+        "placeholders": {
+            "startDate": "Start Date",
+            "endDate": "End Date"
+        }
+    },
+    "itineraryForm": {
+        "title": "Plan Your Trip",
+        "destinationPrompt": "Where do you want to go?",
+        "destinationPlaceholder": "Romania",
+        "addButton": "Add",
+        "addCitiesPrompt": "Add cities to your trip (Optional)",
+        "cityPlaceholder": "Targu Mures",
+        "budgetPrompt": "Budget (euro)",
+        "budgetPlaceholder": "1000",
+        "descriptionPrompt": "Description",
+        "descriptionPlaceholder": "\"Describe your trip to the AI assistant: e.g., part of the country you want to visit, type of vacation (e.g., family, friends, couple, solo), preferred transportation, activities of interest, etc.\"",
+        "generateButton": "Generate Trips",
+
+        "errors": {
+            "emptyInput": "Error",
+            "emptyInputMessage": "The input should not be empty",
+            "duplicateCity": "Error",
+            "duplicateCityMessage": "You already have this city in your list",
+            "noRecommendations": "No recommendations received",
+            "fetchError": "An error occurred while fetching recommendations",
+            "emptyDateInput": "Error",
+            "emptyDateInputMessage": "Please select a date for your trip",
+            "invalidBudget": "Error",
+            "invalidBudgetMessage": "The budget should be a number",
+            "emptyCityInput": "Error",
+            "emptyCityInputMessage": "Please write city name before adding",
+            "emptyDestinationInput": "Error",
+            "emptyDestinationInputMessage": "Please write country name before adding",
+            "emptyDestinationWhenAddingCityMessage": "Please write country name before adding city"
+        }
+    },
+    "settingsScreen": {
+        "titles": {
+            "settingsAndPrivacy": "Settings and privacy"
+        },
+        "labels": {
+            "darkTheme": "Dark Theme",
+            "selectLanguage": "Select a language"
+        },
+        "buttons": {
+            "logout": "Logout"
+        },
+        "errors": {
+            "logoutError": "An error occurred while logging out"
+        },
+        "dropDown": {
+            "list": "languageList"
+        }
+    },
+    "searchBar": {
+        "placeholder": "Type user name",
+        "buttonTitle": "Search"
+    },
+    "recommendationScreen": {
+        "title": "Trip recommendations:"
+    },
+    "showFollower": {
+        "posts": "Itineraries",
+        "followers": "Followers",
+        "following": "Following"
+    },
+    "profilePage": {
+        "errorUpdating": "Error updating user data!",
+        "usernamePlaceholder": "Your username",
+        "follow": "Follow",
+        "unfollow": "Unfollow",
+        "aboutMe": "About me",
+        "descriptionPlaceholder": "Write something about you...",
+        "myItineraries": "My itineraries",
+        "itineraries": "Itineraries",
+        "viewAll": "View all"
+    },
+    "mapScreen": {
+        "searchPlaceholder": "Search for a place"
+    },
+    "itineraryList": {
+        "description": "Description",
+        "country": "Country",
+        "rating": "Rating"
+    },
+    "imagesLoadingScreen": {
+        "description": "AI is working on generating the recommendations ..."
+    },
+    "searchScreen": {
+        "user": "User",
+        "notFound": "not found"
+    },
+    "followersOrFollowingScreen": {
+        "followers": "Followers",
+        "following": "Following"
+    },
+    "reviewsButton": {
+        "addReview": "Add review",
+        "close": "Close",
+        "save": "Save"
+    },
+    "filterStripe": {
+        "DateAdded": "Date Added",
+        "Rating": "Rating",
+        "Country": "Country",
+        "Trip Length": "Trip Length",
+        "User": "User"
+    },
+    "calendar": {
+        "January": "January",
+        "February": "February",
+        "March": "March",
+        "April": "April",
+        "May": "May",
+        "June": "June",
+        "July": "July",
+        "August": "August",
+        "September": "September",
+        "October": "October",
+        "November": "November",
+        "December": "December",
+        "Sun": "Sun",
+        "Mon": "Mon",
+        "Tue": "Tue",
+        "Wed": "Wed",
+        "Thu": "Thu",
+        "Fri": "Fri",
+        "Sat": "Sat"
+    },
+    "reviewSort": {
+        "sortBy": "Sort by",
+        "Name": "Name",
+        "RatingLow": "Rating Low",
+        "RatingHigh": "Rating High",
+        "filterBy": "Filter by rating:",
+        "All": "All",
+        "authorName": "Author Name",
+        "noReviewsAdded": "No reviews added",
+        "reviews": "Reviews",
+        "addReview": "Add a review"
+    },
+    "itineraryDetail": {
+        "day": "Day",
+        "pleaseSelectDay": "Please select the trip date",
+        "addToMyTrip": "Add to My Trip",
+        "country": "Country:",
+        "startDate": "Start Date:",
+        "endDate": "End Date:",
+        "saveToMy": "Save to my trips",
+        "saved": "Saved"
+    },
+    "saveToMyTrips": {
+        "buttonText": "Save to my trips",
+        "buttonTextSaved": "Saved",
+        "modalButtonText": "Add to my trips",
+        "modalPleaseText": "Please select the trip date"
+    },
+    "createdBy": "Created by:"
+}

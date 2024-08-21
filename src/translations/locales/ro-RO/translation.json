@@ -1,0 +1,257 @@
+{
+    "welcome": "Bun venit",
+    "loginTitle": "Conectare",
+    "emailLabel": "Email",
+    "passwordLabel": "Parolă",
+    "logInButton": "CONECTARE",
+    "noAccountText": "Nu ai un cont?",
+    "registerButton": "Înregistrează-te",
+    "errors": {
+        "default": "A apărut o eroare necunoscută",
+        "1": "Email sau parolă invalidă",
+        "2": "Contul nu a fost găsit",
+        "3": "Eroare de rețea",
+        "4": "Eroare de server"
+    },
+    "budgetPlanningScreen": {
+        "title": {
+            "totalBudget": "Buget total",
+            "availableFunds": "Fonduri disponibile",
+            "moneySpent": "Bani cheltuiți"
+        },
+        "placeholders": {
+            "enterAmount": "Introdu suma pentru categoria respectivă"
+        },
+        "buttons": {
+            "saveBudget": "Salvează bugetul"
+        },
+        "alerts": {
+            "exceeded": "Suma de cheltuit a fost depășită",
+            "saveSuccess": "Bugetul a fost salvat cu succes!",
+            "saveError": "Eroare la salvarea bugetului."
+        }
+    },
+    "categories": {
+        "transport": "Transport",
+        "accommodation": "Cazare",
+        "activities": "Activități",
+        "foodAndDrinks": "Mâncare și băuturi",
+        "other": "Altele"
+    },
+    "registrationScreen": {
+        "titles": {
+            "welcome": "Bun venit",
+            "register": "Înregistrează-te"
+        },
+        "labels": {
+            "name": "Nume",
+            "email": "Email",
+            "password": "Parolă",
+            "confirmPassword": "Confirmă parola",
+            "termsAndConditions": "Sunt de acord cu Termenii și Condițiile"
+        },
+        "placeholders": {
+            "name": "Nume",
+            "email": "Email",
+            "password": "Parolă",
+            "confirmPassword": "Confirmă parola"
+        },
+        "messages": {
+            "passwordError": "Parola trebuie să aibă minim 6 caractere.",
+            "passwordUppercase": "Parola trebuie să conțină cel puțin o literă mare.",
+            "passwordLowercase": "Parola trebuie să conțină cel puțin o literă mică.",
+            "passwordSpecialCharacter": "Parola trebuie să conțină cel puțin un caracter special.",
+            "confirmPasswordError": "Parolele nu se potrivesc.",
+            "emailError": "Te rugăm să introduci o adresă de email validă.",
+            "fillFields": "Te rugăm să completezi toate câmpurile",
+            "validEmail": "Te rugăm să introduci o adresă de email validă",
+            "validPassword": "Te rugăm să introduci o parolă care conține litere mari, mici și caractere speciale",
+            "acceptTerms": "Trebuie să accepți termenii și condițiile pentru a continua",
+            "passwordMismatch": "Parolele nu se potrivesc",
+            "registrationError": "Ceva nu a mers bine"
+        },
+        "buttons": {
+            "register": "ÎNREGISTREAZĂ-TE",
+            "goBack": "Întoarce-te"
+        },
+        "alerts": {
+            "error": "Eroare",
+            "oops": "Ups.."
+        },
+        "misc": {
+            "changedMind": "Te-ai răzgândit?"
+        }
+    },
+    "chatBotScreen": {
+        "messages": {
+            "welcome": "Bun venit! Cum te pot ajuta astăzi?"
+        },
+        "titles": {
+            "chatWithAI": "Conversează cu Baiazid"
+        },
+        "placeholders": {
+            "typeMessage": "Scrie mesajul tău..."
+        },
+        "buttons": {
+            "send": "Trimite"
+        }
+    },
+    "datePicker": {
+        "placeholders": {
+            "startDate": "Data de început",
+            "endDate": "Data de sfârșit"
+        }
+    },
+    "itineraryForm": {
+        "title": "Planifică-ți călătoria",
+        "destinationPrompt": "Unde dorești să mergi?",
+        "destinationPlaceholder": "România",
+        "addButton": "Adaugă",
+        "addCitiesPrompt": "Adaugă orașe în călătoria ta (Opțional)",
+        "cityPlaceholder": "Târgu Mureș",
+        "budgetPrompt": "Buget (euro)",
+        "budgetPlaceholder": "1000",
+        "descriptionPrompt": "Descriere",
+        "descriptionPlaceholder": "\"Descrie-ți călătoria pentru asistentul de AI: de exemplu, partea țării pe care dorești să o vizitezi, tipul de vacanță (de exemplu, familie, prieteni, cuplu, singur), transportul preferat, activități de interes etc.\"",
+        "generateButton": "Generare călătorii",
+
+        "errors": {
+            "emptyInput": "Eroare",
+            "emptyInputMessage": "Inputul nu trebuie să fie gol",
+            "duplicateCity": "Eroare",
+            "duplicateCityMessage": "Ai deja acest oraș în lista ta",
+            "noRecommendations": "Nu s-au primit recomandări",
+            "fetchError": "A apărut o eroare în timpul obținerii recomandărilor",
+            "emptyDateInput": "Eroare",
+            "emptyDateInputMessage": "Te rog să alegi data pentru călătoria ta",
+            "invalidBudget": "Eroare",
+            "invalidBudgetMessage": "Bugetul trebuie să fie un număr",
+            "emptyCityInput": "Eroare",
+            "emptyCityInputMessage": "Te rog sa scrii un oraș înainte de adaugare",
+            "emptyDestinationInput": "Eroare",
+            "emptyDestinationInputMessage": "Te rog sa scrii o țară înainte de adaugare"
+        }
+    },
+    "settingsScreen": {
+        "titles": {
+            "settingsAndPrivacy": "Setări și confidențialitate"
+        },
+        "labels": {
+            "darkTheme": "Temă întunecată",
+            "selectLanguage": "Selectează o limbă"
+        },
+        "buttons": {
+            "logout": "Deconectare"
+        },
+        "errors": {
+            "logoutError": "A apărut o eroare în timpul deconectării"
+        },
+        "dropDown": {
+            "list": "listăLimbă"
+        }
+    },
+    "searchBar": {
+        "placeholder": "Caută numele utilizatorului",
+        "buttonTitle": "Căutare"
+    },
+    "recommendationScreen": {
+        "title": "Recomandări de călătorie:"
+    },
+    "showFollower": {
+        "posts": "Postări",
+        "followers": "Urmăritori",
+        "following": "Urmărești"
+    },
+    "profilePage": {
+        "errorUpdating": "Eroare la actualizarea datelor utilizatorului!",
+        "usernamePlaceholder": "Numele tău de utilizator",
+        "follow": "Urmărește",
+        "unfollow": "Nu mai urmări",
+        "aboutMe": "Despre mine",
+        "descriptionPlaceholder": "Scrie ceva despre tine...",
+        "myItineraries": "Itinerariile mele",
+        "itineraries": "Itinerarii",
+        "viewAll": "Vezi toate"
+    },
+    "mapScreen": {
+        "searchPlaceholder": "Caută un loc"
+    },
+    "itineraryList": {
+        "description": "Descriere",
+        "country": "Țară",
+        "rating": "Rating"
+    },
+    "imagesLoadingScreen": {
+        "description": "AI lucrează la generarea recomandărilor ..."
+    },
+    "searchScreen": {
+        "user": "Utilizator",
+        "notFound": "nu a fost găsit"
+    },
+    "filterStripe": {
+        "DateAdded": "Data Adaugare",
+        "Rating": "Recenzii",
+        "Country": "Tara",
+        "Trip Length": "Durata",
+        "User": "Utilizator"
+    },
+    "calendar": {
+        "January": "Ianuarie",
+        "February": "Februarie",
+        "March": "Martie",
+        "April": "Aprilie",
+        "May": "Mai",
+        "June": "Iunie",
+        "July": "Iulie",
+        "August": "August",
+        "September": "Septembrie",
+        "October": "Octombrie",
+        "November": "Noiembrie",
+        "December": "Decembrie",
+        "Sun": "Duminică",
+        "Mon": "Luni",
+        "Tue": "Marți",
+        "Wed": "Miercuri",
+        "Thu": "Joi",
+        "Fri": "Vineri",
+        "Sat": "Sâmbătă"
+    },
+    "followersOrFollowingScreen": {
+        "followers": "Urmăritori",
+        "following": "Urmărești"
+    },
+    "reviewsButton": {
+        "addReview": "Adaugă recenzie",
+        "close": "Închide",
+        "save": "Salvează"
+    },
+    "reviewSort": {
+        "sortBy": "Sortare după",
+        "Name": "Nume",
+        "RatingLow": "Evaluare mică",
+        "RatingHigh": "Evaluare mare",
+        "filterBy": "Filtrare dupa stele:",
+        "All": "Toate",
+        "authorName": "Nume autor",
+        "noReviewsAdded": "Nu sunt reviewuri adaugate ",
+        "reviews": "Recenzii",
+        "addReview": "Adauga o recenzie"
+    },
+    "saveToMyTrips": {
+        "buttonText": "Salvați în călătoriile mele",
+        "buttonTextSaved": "Salvat",
+        "modalButtonText": "Adaugă la călătoriile mele",
+        "modalPleaseText": "Vă rugăm să selectați data călătoriei"
+    },
+    "itineraryDetail": {
+        "day": "Ziua",
+        "pleaseSelectDay": "Vă rugăm să selectați data călătoriei",
+        "addToMyTrip": "Adaugă la Călătoria Mea",
+        "country": "Țară:",
+        "startDate": "Data Începerii:",
+        "endDate": "Data Încheierii:",
+        "saveToMy": "Salvează în călătoriile mele",
+        "saved": "Salvat"
+    },
+    "createdBy": "Creat de:"
+}

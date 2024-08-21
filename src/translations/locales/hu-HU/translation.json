@@ -1,0 +1,257 @@
+{
+    "welcome": "Üdvözlünk",
+    "loginTitle": "Bejelentkezés",
+    "emailLabel": "Email",
+    "passwordLabel": "Jelszó",
+    "logInButton": "BEJELENTKEZÉS",
+    "noAccountText": "Nincs fiókod?",
+    "registerButton": "Regisztráció",
+    "errors": {
+        "default": "Ismeretlen hiba történt",
+        "1": "Érvénytelen email vagy jelszó",
+        "2": "A fiók nem található",
+        "3": "Hálózati hiba",
+        "4": "Szerverhiba"
+    },
+    "budgetPlanningScreen": {
+        "title": {
+            "totalBudget": "Összes költségvetés",
+            "availableFunds": "Elérhető források",
+            "moneySpent": "Kiadott pénz"
+        },
+        "placeholders": {
+            "enterAmount": "Add meg az összeget az adott kategóriához"
+        },
+        "buttons": {
+            "saveBudget": "Költségvetés mentése"
+        },
+        "alerts": {
+            "exceeded": "A költeni kívánt összeg meghaladta a keretet",
+            "saveSuccess": "A költségvetés sikeresen mentve!",
+            "saveError": "Hiba történt a költségvetés mentése során."
+        }
+    },
+    "categories": {
+        "transport": "Közlekedés",
+        "accommodation": "Szállás",
+        "activities": "Programok",
+        "foodAndDrinks": "Étel és ital",
+        "other": "Egyéb"
+    },
+    "registrationScreen": {
+        "titles": {
+            "welcome": "Üdvözlünk",
+            "register": "Regisztráció"
+        },
+        "labels": {
+            "name": "Név",
+            "email": "Email",
+            "password": "Jelszó",
+            "confirmPassword": "Jelszó megerősítése",
+            "termsAndConditions": "Elfogadom a Felhasználási feltételeket"
+        },
+        "placeholders": {
+            "name": "Név",
+            "email": "Email",
+            "password": "Jelszó",
+            "confirmPassword": "Jelszó megerősítése"
+        },
+        "messages": {
+            "passwordError": "A jelszónak legalább 6 karakter hosszúnak kell lennie.",
+            "passwordUppercase": "A jelszónak tartalmaznia kell legalább egy nagybetűt.",
+            "passwordLowercase": "A jelszónak tartalmaznia kell legalább egy kisbetűt.",
+            "passwordSpecialCharacter": "A jelszónak tartalmaznia kell legalább egy speciális karaktert.",
+            "confirmPasswordError": "A jelszavak nem egyeznek.",
+            "emailError": "Kérjük, adj meg egy érvényes email címet.",
+            "fillFields": "Kérlek, töltsd ki az összes mezőt",
+            "validEmail": "Kérlek, adj meg egy érvényes email címet",
+            "validPassword": "Kérlek, adj meg egy jelszót, amely tartalmaz nagybetűket, kisbetűket és speciális karaktereket",
+            "acceptTerms": "El kell fogadnod a feltételeket ahhoz, hogy folytathasd",
+            "passwordMismatch": "A jelszavak nem egyeznek",
+            "registrationError": "Valami nem működött"
+        },
+        "buttons": {
+            "register": "REGISZTRÁCIÓ",
+            "goBack": "Vissza"
+        },
+        "alerts": {
+            "error": "Hiba",
+            "oops": "Hoppá.."
+        },
+        "misc": {
+            "changedMind": "Meggondoltad magad?"
+        }
+    },
+    "chatBotScreen": {
+        "messages": {
+            "welcome": "Üdvözlünk! Miben segíthetek ma?"
+        },
+        "titles": {
+            "chatWithAI": "Beszélgess az Baiazid-al"
+        },
+        "placeholders": {
+            "typeMessage": "Írd be az üzenetedet..."
+        },
+        "buttons": {
+            "send": "Küldés"
+        }
+    },
+    "datePicker": {
+        "placeholders": {
+            "startDate": "Kezdő dátum",
+            "endDate": "Befejező dátum"
+        }
+    },
+    "itineraryForm": {
+        "title": "Tervezz utazást",
+        "destinationPrompt": "Hova szeretnél menni?",
+        "destinationPlaceholder": "Románia",
+        "addButton": "Hozzáadás",
+        "addCitiesPrompt": "Add hozzá a városokat az utazásodhoz (Opcionális)",
+        "cityPlaceholder": "Târgu Mureș",
+        "budgetPrompt": "Költségvetés (euró)",
+        "budgetPlaceholder": "1000",
+        "descriptionPrompt": "Leírás",
+        "descriptionPlaceholder": "\"Írd le az utazásodat az AI aszisztensnek: pl. az ország része, amit látogatni szeretnél, az utazás típusa (pl. családi, baráti, pár, egyéni), preferált közlekedés, érdekes programok, stb.\"",
+        "generateButton": "Utazások generálása",
+
+        "errors": {
+            "emptyInput": "Hiba",
+            "emptyInputMessage": "A bemenet nem lehet üres",
+            "duplicateCity": "Hiba",
+            "duplicateCityMessage": "Már szerepel ez a város a listádban",
+            "noRecommendations": "Nincsenek ajánlások",
+            "fetchError": "Hiba történt az ajánlások lekérése során",
+            "emptyDateInput": "Hiba",
+            "emptyDateInputMessage": "Válassz egy dátumot a kirándulásodnak",
+            "invalidBudget": "Hiba",
+            "invalidBudgetMessage": "A költségvetésnek számnak kell lennie",
+            "emptyCityInput": "Hiba",
+            "emptyCityInputMessage": "Írj be egy várost mielőtt hozzá szeretnél adni",
+            "emptyDestinationInput": "Hiba",
+            "emptyDestinationInputMessage": "Írj be egy orászgot mielőtt hozzá szeretnél adni"
+        }
+    },
+    "settingsScreen": {
+        "titles": {
+            "settingsAndPrivacy": "Beállítások és adatvédelem"
+        },
+        "labels": {
+            "darkTheme": "Sötét téma",
+            "selectLanguage": "Válassz nyelvet"
+        },
+        "buttons": {
+            "logout": "Kijelentkezés"
+        },
+        "errors": {
+            "logoutError": "Hiba történt a kijelentkezés során"
+        },
+        "dropDown": {
+            "list": "nyelvLista"
+        }
+    },
+    "searchBar": {
+        "placeholder": "Keresd meg a felhasználó nevét",
+        "buttonTitle": "Keresés"
+    },
+    "recommendationScreen": {
+        "title": "Utazási ajánlások:"
+    },
+    "showFollower": {
+        "posts": "Bejegyzések",
+        "followers": "Követők",
+        "following": "Követettek"
+    },
+    "profilePage": {
+        "errorUpdating": "Hiba történt a felhasználói adatok frissítése során!",
+        "usernamePlaceholder": "Felhasználóneved",
+        "follow": "Követés",
+        "unfollow": "Követés megszüntetése",
+        "aboutMe": "Rólam",
+        "descriptionPlaceholder": "Írj valamit magadról...",
+        "myItineraries": "Utazásaim",
+        "itineraries": "Útvonalak",
+        "viewAll": "Összes megtekintése"
+    },
+    "mapScreen": {
+        "searchPlaceholder": "Keresés egy helyre"
+    },
+    "itineraryList": {
+        "description": "Leírás",
+        "country": "Ország",
+        "rating": "Értékelés"
+    },
+    "imagesLoadingScreen": {
+        "description": "Az MI az ajánlások generálásán dolgozik ..."
+    },
+    "searchScreen": {
+        "user": "A felhasználó",
+        "notFound": "nem található"
+    },
+    "filterStripe": {
+        "DateAdded": "Hozzáadás dátuma",
+        "Rating": "Értékelés",
+        "Country": "Ország",
+        "Trip Length": "Utazás hossza",
+        "User": "Felhasználó"
+    },
+    "calendar": {
+        "January": "Január",
+        "February": "Február",
+        "March": "Március",
+        "April": "Április",
+        "May": "Május",
+        "June": "Június",
+        "July": "Július",
+        "August": "Augusztus",
+        "September": "Szeptember",
+        "October": "Október",
+        "November": "November",
+        "December": "December",
+        "Sun": "Vasárnap",
+        "Mon": "Hétfő",
+        "Tue": "Kedd",
+        "Wed": "Szerda",
+        "Thu": "Csütörtök",
+        "Fri": "Péntek",
+        "Sat": "Szombat"
+    },
+    "followersOrFollowingScreen": {
+        "followers": "Követők",
+        "following": "Követettek"
+    },
+    "reviewsButton": {
+        "addReview": "Vélemény hozzáadása",
+        "close": "Bezárás",
+        "save": "Mentés"
+    },
+    "reviewSort": {
+        "sortBy": "Rendezés szerint",
+        "Name": "Név",
+        "RatingLow": "Alacsony értékelés",
+        "RatingHigh": "Magas értékelés",
+        "filterBy": "Csillagok száma:",
+        "All": "Összes",
+        "authorName": "Szerző neve",
+        "noReviewsAdded": "Nincsenek hozzáadott vélemények ",
+        "reviews": "Vélemények",
+        "addReview": "Vélemény hozzáadása"
+    },
+    "saveToMyTrips": {
+        "buttonText": "Mentés az utazásaimhoz",
+        "buttonTextSaved": "Mentve",
+        "modalButtonText": "Hozzáadás az utazásaimhoz",
+        "modalPleaseText": "Kérjük, válassza ki az utazás dátumát"
+    },
+    "itineraryDetail": {
+        "day": "Nap",
+        "pleaseSelectDay": "Kérjük, válassza ki az utazás dátumát",
+        "addToMyTrip": "Hozzáadás az Utazásaimhoz",
+        "country": "Ország:",
+        "startDate": "Kezdési Dátum:",
+        "endDate": "Befejezési Dátum:",
+        "saveToMy": "Mentés az utazásaimhoz",
+        "saved": "Mentve"
+    },
+    "createdBy": "Készítette:"
+}

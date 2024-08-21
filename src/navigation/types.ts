@@ -1,0 +1,17 @@
+export enum ROUTE_KEYS {
+    HOME_SCREEN = 'HomeScreen',
+    SPLASH_SCREEN = 'SplashScreen',
+    LOGIN_SCREEN = 'LoginScreen',
+    REGISTER_SCREEN = 'RegisterScreen',
+    MAP_SCREEN = 'MapScreen',
+    PROFILE_SCREEN = 'ProfileScreen',
+    TAB_NAVIGATOR = 'TabNavigator',
+    DETAIL_SCREEN = 'ItineraryDetailScreen',
+    RECOMMENDATION_SCREEN = 'RecommendationScreen',
+    CHATBOT_SCREEN = 'ChatBotScreen',
+    ITINERARY_FORM_SCREEN = 'ItineraryFormScreen',
+    SEARCH_SCREEN = 'SearchScreen',
+    SETTINGS_SCREEN = 'SettingsScreen',
+    BUDGET_PLANNING_SCREEN = 'BudgetPlanningScreen',
+    FOLLOWERS_OR_FOLLOWING_SCREEN = 'FollowersOrFollowingScreen',
+}

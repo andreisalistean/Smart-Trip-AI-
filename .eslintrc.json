@@ -1,0 +1,85 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": ["react", "@typescript-eslint", "import", "react-hooks"],
+    "rules": {
+        "sort-imports": [
+            "error",
+            { "ignoreCase": true, "ignoreDeclarationSort": true }
+        ],
+        "react-hooks/exhaustive-deps": "error",
+        "import/order": [
+            "error",
+            {
+                "groups": [
+                    ["external", "builtin"],
+                    "internal",
+                    ["sibling", "parent"],
+                    "index"
+                ],
+                "pathGroups": [
+                    {
+                        "pattern": "@(react|react-native)",
+                        "group": "external",
+                        "position": "before"
+                    },
+                    {
+                        "pattern": "@src/**",
+                        "group": "internal"
+                    }
+                ],
+                "pathGroupsExcludedImportTypes": ["internal", "react"],
+                "newlines-between": "always",
+                "alphabetize": {
+                    "order": "asc",
+                    "caseInsensitive": true
+                }
+            }
+        ],
+
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "react/prop-types": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-unused-vars": "error",
+        "react/display-name": "off",
+        "import/no-unused-modules": ["error", { "unusedExports": true }],
+        "no-console": "warn",
+        "no-restricted-syntax": [
+            "error",
+            {
+                "selector": "CallExpression[callee.object.name='console'][callee.property.name!=/^(log|warn|error|info|trace)$/]",
+                "message": "Unexpected property on console object was called"
+            }
+        ]
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "overrides": [
+        {
+            "files": ["*.json", "*.json5"],
+            "parser": "jsonc-eslint-parser"
+        }
+    ]
+}
